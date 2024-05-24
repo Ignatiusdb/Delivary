@@ -2,7 +2,7 @@ import React from 'react'
 import './exploreMenu.css'
 import { menu_list } from '../../assets/assets'
 
-const ExploreMenu = () => {
+const ExploreMenu = ({category,setCategory}) => {
   return (
     <div className='explore-menu' id='explore-menu'>
     <h1>Explore Menu</h1>

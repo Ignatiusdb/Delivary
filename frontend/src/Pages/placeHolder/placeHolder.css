@@ -25,4 +25,14 @@
     border-radius: 4px;
     outline-color: tomato; /* Corrected outline-color */
   }
-  
+  .place-order-left  .multi-fields{
+    display: flex;
+    gap: 10px;
+  }
+  .place-order-right{
+    width: 100%;
+    max-width: max(40%,500px);
+  } 
+  .place-order .cart-total button{
+    margin-top: 30px;
+  } 
